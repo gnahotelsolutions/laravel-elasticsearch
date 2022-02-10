@@ -1,7 +1,7 @@
-<?php namespace Cviebrock\LaravelElasticsearch\Tests;
+<?php namespace GNAHotelSolutions\LaravelElasticsearch\Tests;
 
-use Cviebrock\LaravelElasticsearch\Factory;
-use Cviebrock\LaravelElasticsearch\Manager;
+use GNAHotelSolutions\LaravelElasticsearch\Factory;
+use GNAHotelSolutions\LaravelElasticsearch\Manager;
 use Elasticsearch;
 use Elasticsearch\Client;
 
