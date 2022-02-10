@@ -1,4 +1,4 @@
-<?php namespace Cviebrock\LaravelElasticsearch;
+<?php namespace GNAHotelSolutions\LaravelElasticsearch;
 
 use Elasticsearch\Client;
 use Elasticsearch\ClientBuilder;

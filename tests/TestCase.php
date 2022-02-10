@@ -1,7 +1,7 @@
-<?php namespace Cviebrock\LaravelElasticsearch\Tests;
+<?php namespace GNAHotelSolutions\LaravelElasticsearch\Tests;
 
-use Cviebrock\LaravelElasticsearch\Facade;
-use Cviebrock\LaravelElasticsearch\ServiceProvider;
+use GNAHotelSolutions\LaravelElasticsearch\Facade;
+use GNAHotelSolutions\LaravelElasticsearch\ServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 

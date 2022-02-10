@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Cviebrock\LaravelElasticsearch\Tests\Console\Command;
+namespace GNAHotelSolutions\LaravelElasticsearch\Tests\Console\Command;
 
-use Cviebrock\LaravelElasticsearch\Tests\TestCase;
+use GNAHotelSolutions\LaravelElasticsearch\Tests\TestCase;
 use Elasticsearch\Client;
 use Elasticsearch\Namespaces\IndicesNamespace;
 use Generator;

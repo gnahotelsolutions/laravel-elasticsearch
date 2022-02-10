@@ -1,12 +1,12 @@
-<?php namespace Cviebrock\LaravelElasticsearch;
+<?php namespace GNAHotelSolutions\LaravelElasticsearch;
 
-use Cviebrock\LaravelElasticsearch\Console\Command\AliasCreateCommand;
-use Cviebrock\LaravelElasticsearch\Console\Command\AliasRemoveIndexCommand;
-use Cviebrock\LaravelElasticsearch\Console\Command\AliasSwitchIndexCommand;
-use Cviebrock\LaravelElasticsearch\Console\Command\IndexCreateCommand;
-use Cviebrock\LaravelElasticsearch\Console\Command\IndexCreateOrUpdateMappingCommand;
-use Cviebrock\LaravelElasticsearch\Console\Command\IndexDeleteCommand;
-use Cviebrock\LaravelElasticsearch\Console\Command\IndexExistsCommand;
+use GNAHotelSolutions\LaravelElasticsearch\Console\Command\AliasCreateCommand;
+use GNAHotelSolutions\LaravelElasticsearch\Console\Command\AliasRemoveIndexCommand;
+use GNAHotelSolutions\LaravelElasticsearch\Console\Command\AliasSwitchIndexCommand;
+use GNAHotelSolutions\LaravelElasticsearch\Console\Command\IndexCreateCommand;
+use GNAHotelSolutions\LaravelElasticsearch\Console\Command\IndexCreateOrUpdateMappingCommand;
+use GNAHotelSolutions\LaravelElasticsearch\Console\Command\IndexDeleteCommand;
+use GNAHotelSolutions\LaravelElasticsearch\Console\Command\IndexExistsCommand;
 use Elasticsearch\Client;
 use Illuminate\Container\Container;
 use Illuminate\Foundation\Application as LaravelApplication;
@@ -17,7 +17,7 @@ use Laravel\Lumen\Application as LumenApplication;
 /**
  * Class ServiceProvider
  *
- * @package Cviebrock\LaravelElasticsearch
+ * @package GNAHotelSolutions\LaravelElasticsearch
  */
 class ServiceProvider extends BaseServiceProvider
 {
